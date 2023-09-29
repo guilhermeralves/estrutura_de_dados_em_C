@@ -1,33 +1,44 @@
-Esqueleto de um programa em C contém, Declarações de bibliotecas globais como:
+# Conceitos básicos da linguagem C
+## IMPORTANDO BIBLIOTECAS:
 
--->  #include<stdio.h>
--->  #include<stdlib.h>
+Esqueleto de um programa em C contém, Declarações de bibliotecas globais como
 
-INÍCIO DO CÓDIGO:
+```
+#include<stdio.h> 
+#include<stdlib.h>
+```
 
--->  int main(){}
+## INÍCIO DO CÓDIGO:
+
+```
+int main(){}
+```
 
 Obs: Todo programa em C deve conter a função chamada "main" ela é responsavel por iniciar e finalizar o programa, dentro dela é onde colocamos todo o corpo do programa.
 
-IDENTAÇÃO DO CÓDIGO:
+## IDENTAÇÃO DO CÓDIGO:
 
-a Identação é como "arrumamos" os espaços no codigo para facilitar a leitura
+A identação é como "arrumamos" os espaços no codigo para facilitar a leitura
 
 Exemplos:
 
 - código sem Identação
 
+```
 int main(){printf("hello word!\n");return 0;}
+```
 
 - código com Identação
 
+```
 int main()
 {
     printf("hello word!\n");
     return 0;
 }
+```
  
-COMPILAÇÃO DO CÓDIGO:
+## COMPILAÇÃO DO CÓDIGO:
 
 A compilação do código possui 4 etapas:
 
