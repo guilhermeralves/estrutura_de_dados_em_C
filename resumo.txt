@@ -1,0 +1,31 @@
+Objetivos de Aprendizagem 
+
+        - Conhecer o histórico da linguagem C
+        - Identificar a estrutura básica de um programa em C
+        - Instalar e conhecer ambiente de desenvovimento da linguagem C
+
+formação dos computadores 
+
+Hardware & Software
+
+- Hardware são todas as peças físicas do computador, como por exemplo:
+monitor, teclado, mouse, gabinete e etc....
+
+- Software é o sistema operacional e todos os programas que rodam no sistema
+
+o Hardware & Software se completam e formam o computador.
+
+    --- Tópico 1 ----
+
+o Hardware consiste em 3 componentes principais:
+
+- CPU: Unidade central de processamento.
+    Responsável pelos calculos aritiméticos lógicos de controle de entrada e saída de todos os programas que estão sendo executados.
+
+- Memória: é onde os dados são guardados.
+
+    Dois tipos de memórias:
+    - RAM: Memória volátil = Memoria que necessita de alimentação para manter a informação armazenada.
+    
+    - ROM / Flash: Memória Estavel = Que guardam os dados a todo momento sem necessidade de alimentação
+
