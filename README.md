@@ -38,6 +38,19 @@ int main()
 }
 ```
  
+## TIPOS DE DADOS EM C
+
+Estes são so tipos de dados em C.
+
+### Escalares:
+
+- char 
+- int
+- float
+- double
+
+
+
 ## COMPILAÇÃO DO CÓDIGO:
 
 A compilação do código possui 4 etapas:
