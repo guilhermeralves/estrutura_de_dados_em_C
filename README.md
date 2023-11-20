@@ -76,19 +76,55 @@ A compilação do código possui 4 etapas:
 
 
 
-## DECLARAÇÃO DE VARIAVEIS
+## DECLARAÇÃO DE VARIAVEIS:
     
 Para declarar uma variavel em C, precisamos informar ao processador duas informações iniciais;
 qual o tipo de dado essa variavel vai utilizar e o identificador ao longo do código, ou seja o nome da variavel.
 
-a declaração de variaveis deve obedecer as seguinte sintaxe:
+a declaração de variaveis deve obedecer a seguinte sintaxe:
 
-    ```
-    tipo variavel_1;
+```
+tipo variavel_1;
     
     ou 
     
-    int numero_1;
-    ```
+int numero_1;
+```
 
 Onde no exemplo acima o "int" significa que essa variavel vai receber um valor de tipo inteiro, e o "numero_1" é o identificador dessa variavel, o nome que vai ser mencionado ao longo do código para utilização da variavel.
+
+
+
+## DECLARAÇÃO DE CONSTANTES:
+
+Diferente das variaveis, as constantes não mudam seu valor literal ao longo do programa, então para que o C compilador em C entenda que se trata da declaração de uma constante, é colocado "#define" antes dos parametros de declaração, por exemplo:
+
+```
+#define <identificador> <Valor>
+
+    ou
+
+#define banana amarelo
+```
+
+Nesse caso já não é necessário colocar o ponto e virgula no final da linha, assim como não precisa informar o tipo de dado da constante pois o valor literal não pode ser mudado de forma alguma ao longo do programa.
+
+
+
+## OPERADOR DE ATRIBUIÇÃO:
+
+Esse operador é responsavel por armazenar um valor literal em alguma variavel( espaço de memória ) já declarada anteriormente no programa, uma informação importante é que o tipo do dado que vai ser guardado na variavel seja compativel com o tipo de dado que a variavel pode receber, por exemplo:
+
+```
+int numero_1;
+
+numero_1 = 6;
+```
+
+Esse é um exemplo de utilização do operador de atribuição da forma correta, atribuindo valor a uma vaiavel do mesmo valor que ela pode receber, já o exemplo abaixo é uma tentativa de declarar um valor diferente ao que a variavel pode guardar:
+
+```
+int numero_1;
+
+numero_1 = h;
+```
