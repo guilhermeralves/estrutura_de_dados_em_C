@@ -97,7 +97,7 @@ Onde no exemplo acima o "int" significa que essa variavel vai receber um valor d
 
 ## DECLARAÇÃO DE CONSTANTES:
 
-Diferente das variaveis, as constantes não mudam seu valor literal ao longo do programa, então para que o C compilador em C entenda que se trata da declaração de uma constante, é colocado "#define" antes dos parametros de declaração, por exemplo:
+Diferente das variaveis, as constantes não mudam seu valor literal ao longo do programa, então para que o compilador em C entenda que se trata da declaração de uma constante, é colocado "#define" antes dos parametros de declaração, por exemplo:
 
 ```
 #define <identificador> <Valor>
@@ -128,3 +128,15 @@ int numero_1;
 
 numero_1 = h;
 ```
+
+
+## ENTRADA DE DADOS:
+
+A entrada de dados serve para que o usuário possa oferecer informações ao programa, essas informações podem ser valores literais digitados apartir de um teclado, toques em telas touchScreen ou até mesmo clicks de confirmação de um mouse.
+
+a forma mais comum e mais usada de entrada de dados em um programa, é através do teclado, para criar uma entrada de dados em C pelo teclado utilizaremos o comando "scanf", essa é a sintaxe utilizada para o scanf:
+
+```
+scanf("string de controle", &variavel);
+```
+
