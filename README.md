@@ -74,23 +74,19 @@ A compilação do código possui 4 etapas:
     que incluímos no nosso programa.
     
 
-    ## DECLARAÇÃO DE VARIAVEIS
+## DECLARAÇÃO DE VARIAVEIS
     
-    Para declarar uma variavel em C, precisamos informar ao processador duas informações iniciais;
-    qual o tipo de dado essa variavel vai utilizar e o identificador ao longo do código, ou seja o nome da variavel.
+Para declarar uma variavel em C, precisamos informar ao processador duas informações iniciais;
+qual o tipo de dado essa variavel vai utilizar e o identificador ao longo do código, ou seja o nome da variavel.
 
-    a declaração de variaveis deve obedecer as seguinte sintaxe:
+a declaração de variaveis deve obedecer as seguinte sintaxe:
 
     ```
-    int main()
-    {
-        printf("hello word!\n");
-        return 0;
-    }
+    tipo variavel_1;
     ```
     ou 
     ```
     int numero_1;
     ```
 
-    Onde no exemplo acima o "int" significa que essa variavel vai receber um valor de tipo inteiro, e o "numero_1" é o identificador dessa variavel, o nome que vai ser mencionado ao longo do código para utilização da variavel.
+Onde no exemplo acima o "int" significa que essa variavel vai receber um valor de tipo inteiro, e o "numero_1" é o identificador dessa variavel, o nome que vai ser mencionado ao longo do código para utilização da variavel.
