@@ -50,19 +50,43 @@ Estes são so tipos de dados em C.
 - double
 
 
-
 ## COMPILAÇÃO DO CÓDIGO:
 
 A compilação do código possui 4 etapas:
 
 1°- Pré-Processamento:
-    o arquivo é processado em um pré-processador, onde são removidos os comentarios e a interpretação das diretivas de compilação, as quais iniciam com #.
+    O arquivo é processado em um pré-processador, onde são removidos os comentarios e a interpretação das diretivas de compilação, as quais iniciam com #.
 
 2°- Verificação Sintática:
-    onde é visto se foi escrito de forma correta de acordo com a sintaxe padrão da linguagem de programação, no caso C.
+    Onde é visto se foi escrito de forma correta de acordo com a sintaxe padrão da linguagem de programação, no caso C.
 
 3°- Compilação:
+    O compilador é um programa que verifica se o
+    programa fonte não apresenta nenhum erro de sintaxe e gera o
+    programa executável. Quando o programa fonte apresenta algum
+    problema, dizemos que ocorreu um “erro de compilação”. Assim, o
+    programador deverá avaliar o programa fonte, para a retirada tais
+    erros.
+
+4°- Linking:
+    Consiste na ligação do código objeto, gerado pelo compilador, 
+    com o código das funções que estão disponíveis nas bibliotecas 
+    que incluímos no nosso programa.
     
 
-4°- Link-Edição:
+    ## DECLARAÇÃO DE VARIAVEIS
     
+    Para declarar uma variavel em C, precisamos informar ao processador duas informações iniciais;
+    qual o tipo de dado essa variavel vai utilizar e o identificador ao longo do código, ou seja o nome da variavel.
+
+    a declaração de variaveis deve obedecer as seguinte sintaxe:
+
+    ```
+    tipo variavel_1;
+    ```
+    ou 
+    ```
+    int numero_1;
+    ```
+
+    Onde no exemplo acima o "int" significa que essa variavel vai receber um valor de tipo inteiro, e o "numero_1" é o identificador dessa variavel, o nome que vai ser mencionado ao longo do código para utilização da variavel.
