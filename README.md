@@ -132,11 +132,45 @@ numero_1 = h;
 
 ## ENTRADA DE DADOS:
 
-A entrada de dados serve para que o usuário possa oferecer informações ao programa, essas informações podem ser valores literais digitados apartir de um teclado, toques em telas touchScreen ou até mesmo clicks de confirmação de um mouse.
+A entrada de dados serve para que o usuário possa oferecer informações ao programa, essas informações podem ser valores literais digitados a partir de um teclado, toques em telas touchScreen ou até mesmo clicks de confirmação de um mouse.
 
 a forma mais comum e mais usada de entrada de dados em um programa, é através do teclado, para criar uma entrada de dados em C pelo teclado utilizaremos o comando "scanf", essa é a sintaxe utilizada para o scanf:
 
 ```
 scanf("string de controle", &variavel);
 ```
+Na primeira parte, temos a "string de controle" ela indicara que tipo de dado será lido, isso acontece por meio dos tipos de valor que existem:
 
+```
+%d = leitura de numeros inteiros.
+
+%f = leitura de numeros reais.
+
+%c = leitura de um caractere.
+
+%s = leitura de um array de caracteres. ( string )
+```
+
+Ou seja, na string de controle é colocado o tipo de dado esperado pelo usuário, seja ele inteiro real ou caracter, através dos valores acima. Já na segunda parte do scanf, selecionamos qual variavel vai guardar o valor literal fornecido pelo usuário, mencionando a mesma pelo nome dela, exemplo:
+
+```
+scanf("Qual é o numero 1?: %d", &numero_1);
+```
+
+Uma Observação muito importante é que SEMPRE antes do nome da variavel, colocamos o simbolo da letra e comercial ( & ), pois ele serve para informar ao programa que queremos o endereço de memória daquela variavel e não o seu valor literal ele tambem é finalizado com ponto e virgula.
+
+Exemplos:
+
+```
+int idade;
+
+float salario;
+
+char letra;
+
+scanf("%d" &idade);
+
+scanf("%f" &salario);
+
+scanf("%c" &letra);
+```
