@@ -74,6 +74,8 @@ A compilação do código possui 4 etapas:
     que incluímos no nosso programa.
     
 
+
+
 ## DECLARAÇÃO DE VARIAVEIS
     
 Para declarar uma variavel em C, precisamos informar ao processador duas informações iniciais;
@@ -83,9 +85,9 @@ a declaração de variaveis deve obedecer as seguinte sintaxe:
 
     ```
     tipo variavel_1;
-    ```
+    
     ou 
-    ```
+    
     int numero_1;
     ```
 
