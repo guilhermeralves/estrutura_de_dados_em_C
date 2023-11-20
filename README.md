@@ -82,7 +82,11 @@ A compilação do código possui 4 etapas:
     a declaração de variaveis deve obedecer as seguinte sintaxe:
 
     ```
-    tipo variavel_1;
+    int main()
+    {
+        printf("hello word!\n");
+        return 0;
+    }
     ```
     ou 
     ```
