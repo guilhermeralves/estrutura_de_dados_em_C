@@ -1,7 +1,9 @@
 # Conceitos básicos da linguagem C
-## IMPORTANDO BIBLIOTECAS:
+## CABEÇALHO DO PROGRAMA:
 
-Esqueleto de um programa em C contém, Declarações de bibliotecas globais como:
+No cabeçalho de um programa em C, você geralmente inclui diversas declarações para informar o compilador sobre as bibliotecas que serão utilizadas, definir constantes, e declarar protótipos de funções. Algumas das declarações comuns no cabeçalho de um programa em C incluem:
+
+###BIBLIOTECAS:
 
 ```
 #include<stdio.h> 
