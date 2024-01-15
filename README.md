@@ -1,12 +1,14 @@
 # Conceitos básicos da linguagem C
 ## IMPORTANDO BIBLIOTECAS:
 
-Esqueleto de um programa em C contém, Declarações de bibliotecas globais como
+Esqueleto de um programa em C contém, Declarações de bibliotecas globais como:
 
 ```
 #include<stdio.h> 
 #include<stdlib.h>
 ```
+
+Essas bibliotecas servem para importar funções e variaveis nativas da linguagem C.
 
 ## INÍCIO DO CÓDIGO:
 
@@ -146,7 +148,7 @@ Na primeira parte, temos a "string de controle" ela indicara que tipo de dado se
 
 %f = leitura de numeros reais.
 
-%c = leitura de um caractere.
+%c = leitura de um caracter.
 
 %s = leitura de um array de caracteres. ( string )
 ```
